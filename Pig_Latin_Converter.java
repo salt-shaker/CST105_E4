@@ -45,21 +45,6 @@ public class Pig_Latin_Converter {
 
 		}
 
-		/*
-		 * For words that begin with consonant sounds, all letters before the initial
-		 * vowel are placed at the end of the word sequence. Then, "ay" is added, as in
-		 * the following
-		 */
-
-		/*
-		 * For words that begin with vowel sounds, one just adds "way" or "yay" to the
-		 * end (or just "ay").
-		 */
-
-		/*
-		 * Words with no vowels, move last letter to beginning and add "ay to the end.
-		 */
-
 		// Create Pig Latin Conversion
 		ArrayList<String> pgcArray = new ArrayList<String>();
 
@@ -94,29 +79,3 @@ public class Pig_Latin_Converter {
 
 	} // End Method
 } // End Class
-
-/*
- * Notes
- * 
- * Java Files https://www.w3schools.com/java/java_files.asp
- * 
- * Different ways of Reading a text file in Java
- * https://www.geeksforgeeks.org/different-ways-reading-text-file-java/
- * 
- * Java Example – Split String Into Array in Java
- * http://www.codebind.com/java-tutorials/java-example-split-string-array-java/
- * 
- * Java Regular Expression Tester
- * https://www.freeformatter.com/java-regex-tester.html#ad-output
- * 
- * How to delete the last element from an array?
- * https://stackoverflow.com/questions/26357805/how-to-delete-the-last-element-
- * from-an-array
- * 
- * Manipulating Characters in a String
- * https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html
- * 
- * Java Formatted Strings
- * https://www.homeandlearn.co.uk/java/java_formatted_strings.html
- * 
- */
